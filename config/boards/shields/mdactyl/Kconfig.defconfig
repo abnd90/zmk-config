@@ -9,12 +9,19 @@ if SHIELD_MDACTYL_RIGHT
 config ZMK_KEYBOARD_NAME
     default "mDactyl Right"
     
+endif
+
+if SHIELD_MDACTYL_CENTRAL
+
+config ZMK_KEYBOARD_NAME
+    default "mDactyl Central"
+    
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_MDACTYL_LEFT || SHIELD_MDACTYL_RIGHT
+if SHIELD_MDACTYL_LEFT || SHIELD_MDACTYL_RIGHT || SHIELD_MDACTYL_CENTRAL
 
 config ZMK_SPLIT
     default y
