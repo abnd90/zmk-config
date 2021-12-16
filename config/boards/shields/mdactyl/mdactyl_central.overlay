@@ -6,6 +6,11 @@
 
 #include "mdactyl.dtsi"
 
+&default_transform {
+    col-offset = <12>;
+	row-offset = <6>;
+};
+
 &kscan0 {
 	col-gpios
 		= ;
