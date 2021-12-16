@@ -5,3 +5,10 @@
  */
 
 #include "mdactyl.dtsi"
+
+&kscan0 {
+	col-gpios
+		= ;
+	row-gpios
+		= ;
+};
