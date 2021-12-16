@@ -7,5 +7,5 @@ config SHIELD_MDACTYL_LEFT
 config SHIELD_MDACTYL_RIGHT
   def_bool $(shields_list_contains,mdactyl_right)
 
-config SHIELD_MDACTYL_RIGHT
+config SHIELD_MDACTYL_CENTRAL
   def_bool $(shields_list_contains,mdactyl_central)
