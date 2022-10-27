@@ -2,6 +2,9 @@ if SHIELD_MDACTYL_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "mDactyl Left"
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
+
 endif
 
 if SHIELD_MDACTYL_RIGHT
